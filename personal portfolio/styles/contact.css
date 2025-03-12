@@ -1,0 +1,134 @@
+
+   body {
+    background-image: url('olsaa.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    text-align: center;
+    
+}
+
+header {
+    background-color: #df8ca8; 
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #d46d90; /* Darker pink */
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+nav a:hover {
+    color: #c71585;
+    border-bottom: 2px solid #fc73c9;
+}
+
+
+.contact-form {
+    background-color: #df8ca8; 
+    padding: 20px;
+    margin: 30px auto;
+    width: 80%;
+    max-width: 600px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease-in-out;
+}
+
+
+.contact-form:hover {
+    border: 3px solid #c97a94;
+    background-color: #c97a94; 
+}
+
+
+input, textarea {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 8px;
+    border: 2px solid #d46d90;
+    font-size: 16px;
+    outline: none;
+}
+
+textarea {
+    resize: none;
+}
+
+button {
+    background-color: #ff80bf;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 18px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: #c71585;
+}
+
+
+.social-links {
+    background-color: #df8ca8;
+    padding: 20px;
+    margin: 30px auto;
+    width: 80%;
+    max-width: 600px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 10px;
+}
+
+.social-icons img {
+    border-radius: 50%;
+    transition: transform 0.3s ease-in-out;
+}
+
+.social-icons img:hover {
+    transform: scale(1.1);
+}
+
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #7a6376;
+    color: white;
+    font-style: italic;
+}
+
+
+@media screen and (max-width: 768px) {
+    .contact-form, .social-links {
+        width: 90%;
+    }
+}

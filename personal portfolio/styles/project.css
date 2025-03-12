@@ -1,0 +1,122 @@
+
+   body {
+    background-image: url('olsaa.jpg');
+    background-color: #fcc4d8; 
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    text-align: center;
+        cursor: url('C:\Users\Terac\Documents\FMA\html\assignments\css\projects\personal portfolio\styles\cursorcute.png'), auto;
+    
+      
+}
+
+
+header {
+    background-color: #df8ca8; 
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #d46d90; 
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+nav a:hover {
+    color: #c71585;
+    border-bottom: 2px solid #fc73c9;
+}
+
+
+
+
+.project {
+    background-color: #df8ca8; 
+    padding: 20px;
+    margin: 30px auto;
+    width: 80%;
+    max-width: 800px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease-in-out;
+}
+
+
+.project:hover {
+    border: 3px solid #c97a94;
+    background-color: #c97a94; 
+}
+
+
+.project h2 {
+    color: white;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+
+
+
+.project p {
+    font-size: 18px;
+    color: #fff3f7; 
+    margin-bottom: 15px;
+}
+
+
+
+
+.project img {
+    display: block;
+    margin: 15px auto;
+    max-width: 90%;
+    border-radius: 12px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease-in-out;
+}
+
+.project img:hover {
+    transform: scale(1.05);
+}
+
+
+
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #7a6376;
+    color: white;
+    font-style: italic;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .project {
+        width: 90%;
+    }
+
+    .project img {
+        max-width: 100%;
+    }
+}

@@ -1,0 +1,157 @@
+
+   body {
+    background-image: url('olsaa.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 0;
+    color: #333;
+    text-align: center;
+    
+}
+
+
+header {
+    background-color: #df8ca8c9;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0px 4px 6px #f1b1de;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: #d46d90; /* Darker pink */
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+nav a:hover {
+    color: #c71585;
+    border-bottom: 2px solid #fc73c9;
+}
+
+/* ============================
+   Section Styling (Matching Header)
+   ============================ */
+section {
+    background-color: #df8ca8; /* Matches header */
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 800px; /* Prevents sections from being too wide */
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+}
+
+/* Slightly Darker Pink on Hover */
+section:hover {
+    border: 3px solid #444;
+    background-color: #c97a94; /* Soft darker pink */
+}
+
+/* ============================
+   Education Section
+   ============================ */
+/* ============================
+   Education Section Styling
+   ============================ */
+   .education-category {
+    background-color: #df8ca8; /* Same pink as section */
+    padding: 15px;
+    margin: 15px auto;
+    width: 70%;
+    max-width: 700px;
+    border-radius: 8px;
+    border-left: 5px solid #ffc8f8; /* Soft pink accent */
+    text-align: left;
+}
+
+.education-category h3 {
+    color: #fff; /* White text for contrast */
+    margin: 0;
+    padding-bottom: 5px;
+    font-size: 20px;
+}
+
+.education-category p {
+    margin: 0;
+    font-style: italic;
+    color: #f7e1ec; /* Light pink text */
+    font-size: 16px;
+}
+
+
+/* ============================
+   Skills Table
+   ============================ */
+table {
+    width: 100%;
+    border-collapse: collapse; /* Neat borders */
+    margin-top: 10px;
+}
+
+th, td {
+    border: 2px solid #444;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #df8ca8c9; /* Matching header */
+    color: white;
+}
+
+td {
+    background-color: #f8f8f8;
+}
+
+/* ============================
+   Projects Section
+   ============================ */
+#projects a {
+    position: relative;
+    top: -5px;
+    color: #ff99cc;
+    font-weight: bold;
+}
+
+#projects a:hover {
+    color: #e06fa6;
+    text-decoration: underline;
+}
+
+/* ============================
+   Footer Styling
+   ============================ */
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #7a6376; /* Darker pink-purple */
+    color: white;
+    font-style: italic;
+}
+
+/* ============================
+   Centering Images
+   ============================ */
+img {
+    display: block;
+    margin: 10px auto;
+    max-width: 100%;
+    height: auto;
+}
